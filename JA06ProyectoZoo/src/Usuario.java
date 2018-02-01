@@ -83,9 +83,9 @@ public class Usuario {
         this.encriptada = encriptada;
     }
     
-    @override
+    @Override
     public String toString(){
-        return this.getcontrasena().toString();
+        return this.getContraseña();
     }
     
 }
