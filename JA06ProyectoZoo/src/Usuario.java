@@ -55,6 +55,10 @@ public class Usuario {
         System.out.println("CONTRASEÑA: "+this.getContraseña()+"\n");
     }
     
+    public void imprimirCorreo(){
+        System.out.println("Correo: "+this.getNombre());
+}
+    
     public String getNombre() {
         return correo;
     }
